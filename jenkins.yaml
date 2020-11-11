@@ -1,12 +1,12 @@
 jenkins:
-  systemMessage: 'Jenkins configured using CloudBees CI CasC - v4'
+  systemMessage: 'Jenkins configured using CloudBees CI CasC - v5'
 unclassified:
   hibernationConfiguration:
     activities:
     - "build"
     - "web"
     enabled: true
-    gracePeriod: 1500
+    gracePeriod: 15000
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
   gitHubPluginConfig:
